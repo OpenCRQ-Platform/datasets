@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":semanticCommits",
+    "config:recommended",
+    "customManagers:githubActionsVersions"
+  ],
+  "labels": [
+    "dependencies",
+    "filigran team"
+  ],
+  "minimumReleaseAge": "3 days",
+  "prHourlyLimit": 2,
+  "timezone": "Europe/Paris",
+  "schedule": [
+    "after 10pm every weekday",
+    "every weekend",
+    "before 5am every weekday"
+  ],
+  "updateNotScheduled": false,
+  "rebaseWhen": "conflicted"
+}
