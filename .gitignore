@@ -1,0 +1,8 @@
+__pycache__
+node_modules
+build
+dist
+logs
+.idea
+.vscode
+.DS_Store
