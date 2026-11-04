@@ -16,7 +16,9 @@ reworked and enriched for cyber risk quantification.
 
 The scripts and the content authored in this repository are released under the
 [Apache License 2.0](LICENSE). Data derived from a third-party source keeps that source's terms,
-stated next to it.
+reproduced in [NOTICE](NOTICE). This includes the [MITRE ATT&CK](https://attack.mitre.org)
+data: © 2026 The MITRE Corporation, reproduced and distributed with the permission of The MITRE
+Corporation. MITRE ATT&CK and ATT&CK are registered trademarks of The MITRE Corporation.
 
 ## Contributing
 

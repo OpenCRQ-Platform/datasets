@@ -1,0 +1,40 @@
+OpenCRQ datasets
+Copyright 2026 Filigran
+
+This product includes software and content developed at Filigran (https://filigran.io),
+released under the Apache License 2.0 (see LICENSE).
+
+This repository also redistributes data derived from third-party sources. Each source keeps
+its own terms, reproduced below. The Apache License 2.0 does not apply to that data.
+
+--------------------------------------------------------------------------------
+MITRE ATT&CK
+https://attack.mitre.org
+--------------------------------------------------------------------------------
+
+Data derived from MITRE ATT&CK, obtained from https://github.com/mitre-attack/attack-stix-data
+and modified for OpenCRQ. The following copyright designation and license are reproduced as
+the ATT&CK Terms of Use require
+(https://attack.mitre.org/resources/legal-and-branding/terms-of-use/).
+
+© 2026 The MITRE Corporation. This work is reproduced and distributed with the permission of
+The MITRE Corporation.
+
+LICENSE
+
+The MITRE Corporation (MITRE) hereby grants you a non-exclusive, royalty-free license to use
+ATT&CK® for research, development, and commercial purposes. Any copy you make for such
+purposes is authorized provided that you reproduce MITRE's copyright designation and this
+license in any such copy.
+
+DISCLAIMERS
+
+ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN "AS IS" BASIS AND THE
+CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY), THE MITRE
+CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
+THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS
+FOR A PARTICULAR PURPOSE.
+
+MITRE ATT&CK and ATT&CK are registered trademarks of The MITRE Corporation. OpenCRQ is not
+affiliated with or endorsed by The MITRE Corporation.
