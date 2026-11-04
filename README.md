@@ -9,8 +9,6 @@ reworked and enriched for cyber risk quantification.
 ## Layout
 
 - `data/`: the bundles the connectors consume.
-- `raw/`: the upstream sources they are built from.
-- `scripts/`: the scripts that turn `raw/` into `data/`.
 
 ## Datasets
 
@@ -29,7 +27,7 @@ published as `v2` beside it.
 
 ## License
 
-The scripts and the content authored in this repository are released under the
+The content authored in this repository is released under the
 [Apache License 2.0](LICENSE). Data derived from a third-party source keeps that source's terms,
 reproduced in [NOTICE](NOTICE). This includes the [MITRE ATT&CK](https://attack.mitre.org)
 data: © 2026 The MITRE Corporation, reproduced and distributed with the permission of The MITRE
