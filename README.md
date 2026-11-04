@@ -12,7 +12,7 @@ reworked and enriched for cyber risk quantification.
 
 ## Datasets
 
-### `data/attack-enterprise-v1.json`
+### `data/default-threats-v1.json`
 
 Read by the **OpenCRQ Default Threats** connector: the live groups and campaigns of
 [MITRE ATT&CK](https://attack.mitre.org) Enterprise, the techniques they use directly and through
