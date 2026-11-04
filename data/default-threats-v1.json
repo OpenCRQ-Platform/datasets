@@ -144,7 +144,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Operation Spalax",
-      "description": "Operation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.  ",
+      "description": "Operation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
       "aliases": [
         "Operation Spalax"
       ],
@@ -175,7 +175,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Operation Honeybee",
-      "description": "Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents. ",
+      "description": "Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.",
       "aliases": [
         "Operation Honeybee"
       ],
@@ -278,7 +278,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "C0011",
-      "description": "C0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022. ",
+      "description": "C0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
       "aliases": [
         "C0011"
       ],
@@ -340,7 +340,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Operation Sharpshooter",
-      "description": "Operation Sharpshooter was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.    ",
+      "description": "Operation Sharpshooter was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.",
       "aliases": [
         "Operation Sharpshooter"
       ],
@@ -505,7 +505,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "C0018",
-      "description": "\nC0018 was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.",
+      "description": "C0018 was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.",
       "aliases": [
         "C0018"
       ],
@@ -638,7 +638,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Operation Ghost",
-      "description": "Operation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.\n",
+      "description": "Operation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.",
       "aliases": [
         "Operation Ghost"
       ],
@@ -669,7 +669,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "SolarWinds Compromise",
-      "description": "The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. This activity has been labled the StellarParticle campaign in industry reporting. Industry reporting also initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds’ Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems. ",
+      "description": "The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. This activity has been labled the StellarParticle campaign in industry reporting. Industry reporting also initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds’ Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems.",
       "aliases": [
         "SolarWinds Compromise"
       ],
@@ -827,7 +827,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "C0027",
-      "description": "C0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.\n",
+      "description": "C0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
       "aliases": [
         "C0027"
       ],
@@ -940,7 +940,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Triton Safety Instrumented System Attack",
-      "description": "Triton Safety Instrumented System Attack was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.\n",
+      "description": "Triton Safety Instrumented System Attack was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.",
       "aliases": [
         "Triton Safety Instrumented System Attack"
       ],
@@ -1048,7 +1048,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "2022 Ukraine Electric Power Attack",
-      "description": "The 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system. ",
+      "description": "The 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
       "aliases": [
         "2022 Ukraine Electric Power Attack"
       ],
@@ -1187,7 +1187,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "HomeLand Justice",
-      "description": "HomeLand Justice was a disruptive cyber campaign conducted by Iranian state-affiliated actors against Albanian government networks in July and September 2022. The activity combined ransomware, wiper malware, and data leak operations. Initial access for HomeLand Justice was established as early as May 2021, and threat actors moved laterally, exfiltrated sensitive information, and maintained persistence for approximately 14 months prior to the destructive phase of the operation. Responsibility was claimed by the \"HomeLand Justice\" front, which framed the campaign as retaliation against the Mujahedeen-e Khalq (MEK), an Iranian opposition group with a presence in Albania. Multiple Iran-nexus groups are assessed to have participated in the campaign, including HEXANE who probed victim infrastructure. A second wave of attacks was launched in September 2022 using similar tactics following public attribution of the previous activity to Iran and the severing of diplomatic ties between Iran and Albania.\n\n",
+      "description": "HomeLand Justice was a disruptive cyber campaign conducted by Iranian state-affiliated actors against Albanian government networks in July and September 2022. The activity combined ransomware, wiper malware, and data leak operations. Initial access for HomeLand Justice was established as early as May 2021, and threat actors moved laterally, exfiltrated sensitive information, and maintained persistence for approximately 14 months prior to the destructive phase of the operation. Responsibility was claimed by the \"HomeLand Justice\" front, which framed the campaign as retaliation against the Mujahedeen-e Khalq (MEK), an Iranian opposition group with a presence in Albania. Multiple Iran-nexus groups are assessed to have participated in the campaign, including HEXANE who probed victim infrastructure. A second wave of attacks was launched in September 2022 using similar tactics following public attribution of the previous activity to Iran and the severing of diplomatic ties between Iran and Albania.",
       "aliases": [
         "HomeLand Justice"
       ],
@@ -1651,7 +1651,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "SPACEHOP Activity",
-      "description": "SPACEHOP Activity is conducted through commercially leased Virtual Private Servers (VPS), otherwise known as provisioned Operational Relay Box (ORB) networks. The network leveraged for SPACEHOP Activity enabled China-nexus cyber threat actors – such as APT5 and Ke3chang – to perform network reconnaissance scanning and vulnerability exploitation. SPACEHOP Activity has historically targeted entities in North America, Europe, and the Middle East. ",
+      "description": "SPACEHOP Activity is conducted through commercially leased Virtual Private Servers (VPS), otherwise known as provisioned Operational Relay Box (ORB) networks. The network leveraged for SPACEHOP Activity enabled China-nexus cyber threat actors – such as APT5 and Ke3chang – to perform network reconnaissance scanning and vulnerability exploitation. SPACEHOP Activity has historically targeted entities in North America, Europe, and the Middle East.",
       "aliases": [
         "SPACEHOP Activity"
       ],
@@ -1713,7 +1713,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Quad7 Activity",
-      "description": " Quad7 Activity, also known as CovertNetwork-1658 or the 7777 Botnet, is a network of compromised small office/home office (SOHO) routers. The botnet was initially composed primarily of TP-Link routers and was named Quad7 due to compromised devices exposing TCP port 7777 with the distinctive banner <code>xlogin</code>. Later activity showed a significant increase in compromised Asus routers and the addition of new ports and banners, including TCP port 63256 displaying <code>alogin</code>. Quad7 infrastructure functions as a collection of egress IPs that various China-affiliated threat actors have used to conduct password-spraying and brute-force operations. Microsoft has reported that Storm-0940 leveraged credentials obtained through Quad7 Activity to target organizations in North America and Europe, including government agencies, non-governmental organizations, think tanks, law firms, energy firms, IT providers, and defense industrial base entities.",
+      "description": "Quad7 Activity, also known as CovertNetwork-1658 or the 7777 Botnet, is a network of compromised small office/home office (SOHO) routers. The botnet was initially composed primarily of TP-Link routers and was named Quad7 due to compromised devices exposing TCP port 7777 with the distinctive banner xlogin. Later activity showed a significant increase in compromised Asus routers and the addition of new ports and banners, including TCP port 63256 displaying alogin. Quad7 infrastructure functions as a collection of egress IPs that various China-affiliated threat actors have used to conduct password-spraying and brute-force operations. Microsoft has reported that Storm-0940 leveraged credentials obtained through Quad7 Activity to target organizations in North America and Europe, including government agencies, non-governmental organizations, think tanks, law firms, energy firms, IT providers, and defense industrial base entities.",
       "aliases": [
         "Quad7 Activity"
       ],
@@ -1841,7 +1841,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "SharePoint ToolShell Exploitation",
-      "description": "The SharePoint ToolShell Exploitation campaign was conducted in July 2025 and encompassed the first waves of exploitation against incompletely patched spoofing (CVE-2025-49706) and remote code execution (CVE-2025-49704) vulnerabilities affecting on-premises Microsoft SharePoint servers. Later patched and updated as CVE-2025-53770 and CVE-2025-53771, the ToolShell vulnerabilities were widely exploited including by China-based ransomware actor Storm-2603 and espionage actors Threat Group-3390 and ZIRCONIUM. SharePoint ToolShell Exploitation targeted multiple regions and industries including finance, education, energy, and healthcare across Asia, Europe, and the United States.\n",
+      "description": "The SharePoint ToolShell Exploitation campaign was conducted in July 2025 and encompassed the first waves of exploitation against incompletely patched spoofing (CVE-2025-49706) and remote code execution (CVE-2025-49704) vulnerabilities affecting on-premises Microsoft SharePoint servers. Later patched and updated as CVE-2025-53770 and CVE-2025-53771, the ToolShell vulnerabilities were widely exploited including by China-based ransomware actor Storm-2603 and espionage actors Threat Group-3390 and ZIRCONIUM. SharePoint ToolShell Exploitation targeted multiple regions and industries including finance, education, energy, and healthcare across Asia, Europe, and the United States.",
       "aliases": [
         "SharePoint ToolShell Exploitation"
       ],
@@ -1996,7 +1996,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Anthropic AI-orchestrated Campaign",
-      "description": "The Anthropic AI-orchestrated Campaign was conducted in September 2025 by a likely China nexus espionage actor identified as GTG-1002. The Anthropic AI-orchestrated Campaign was a highly coordinated operation that manipulated Claude Code to perform reconnaissance, vulnerability discovery, exploitation, lateral movement, credential harvesting, data analysis, and exfiltration operations at approximately 30 entities in the technology, financial, chemical, and government sectors. During the Anthropic AI-orchestrated Campaign, human operators used Claude Code agents and Model Context Protocol (MCP) tools to automate cyber operations. Operators broke attacks into discrete tasks, used crafted prompts,  and established personas to bypass AI guardrails, enabling the agents to execute the operations with minimal human involvement. ",
+      "description": "The Anthropic AI-orchestrated Campaign was conducted in September 2025 by a likely China nexus espionage actor identified as GTG-1002. The Anthropic AI-orchestrated Campaign was a highly coordinated operation that manipulated Claude Code to perform reconnaissance, vulnerability discovery, exploitation, lateral movement, credential harvesting, data analysis, and exfiltration operations at approximately 30 entities in the technology, financial, chemical, and government sectors. During the Anthropic AI-orchestrated Campaign, human operators used Claude Code agents and Model Context Protocol (MCP) tools to automate cyber operations. Operators broke attacks into discrete tasks, used crafted prompts,  and established personas to bypass AI guardrails, enabling the agents to execute the operations with minimal human involvement.",
       "aliases": [
         "Anthropic AI-orchestrated Campaign"
       ],
@@ -2079,7 +2079,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "AI-Assisted Breach of Mexico's Government Infrastructure",
-      "description": "The AI-Assisted Breach of Mexico's Government Infrastructure is a campaign where human operators used Claude Code AI and OpenAI GPT GPT-4.1 AI to perform reconnaissance, vulnerability exploitation, privilege escalation, discovery, credential harvesting, and exfiltration operations. The attack impacted several Mexican government institutions including the Federal Tax Authority (Servicio de Administracion Tributaria), Mexico State Government (Estado de Mexico), Mexico City Civil Registry (Registro Civil de CDMX), Jalisco State Government, National Electoral Institute (Instituto Nacional Electoral), Michoacan State Government, SADM Monterrey Municipal Water Utility (Agua y Drenaje), Tamaulipas State Government, and the Mexico City Health Department (Salud CDMX). The attack resulted in the theft of large amounts of sensitive government data and civilian records. Please note that due to the breadth of this campaign, public reporting only provides select details and as a result this campaign should not be considered comprehensive. ",
+      "description": "The AI-Assisted Breach of Mexico's Government Infrastructure is a campaign where human operators used Claude Code AI and OpenAI GPT GPT-4.1 AI to perform reconnaissance, vulnerability exploitation, privilege escalation, discovery, credential harvesting, and exfiltration operations. The attack impacted several Mexican government institutions including the Federal Tax Authority (Servicio de Administracion Tributaria), Mexico State Government (Estado de Mexico), Mexico City Civil Registry (Registro Civil de CDMX), Jalisco State Government, National Electoral Institute (Instituto Nacional Electoral), Michoacan State Government, SADM Monterrey Municipal Water Utility (Agua y Drenaje), Tamaulipas State Government, and the Mexico City Health Department (Salud CDMX). The attack resulted in the theft of large amounts of sensitive government data and civilian records. Please note that due to the breadth of this campaign, public reporting only provides select details and as a result this campaign should not be considered comprehensive.",
       "aliases": [
         "AI-Assisted Breach of Mexico's Government Infrastructure"
       ],
@@ -2458,7 +2458,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "APT28",
-      "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. This group has been active since at least 2004.\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations. Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team. ",
+      "description": "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. This group has been active since at least 2004.\n\nAPT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations. Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team.",
       "aliases": [
         "APT28",
         "IRON TWILIGHT",
@@ -4114,7 +4114,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Lazarus Group",
-      "description": "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). Lazarus Group has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain.\n\nNorth Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns.\n\n",
+      "description": "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). Lazarus Group has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain.\n\nNorth Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns.",
       "aliases": [
         "Lazarus Group",
         "Labyrinth Chollima",
@@ -6571,7 +6571,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "MuddyWater",
-      "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS). Since at least 2017, MuddyWater has targeted a range of government and private organizations across sectors, including telecommunications, local government, finance, defense, and oil and natural gas organizations, in the Middle East (specifically the UAE and Saudi Arabia), Asia, Africa, Europe, and North America. MuddyWater has reused domains dating back to October 2025, and has a preference for NameCheap and Hosterdaddy Private Limited (AS136557). In late 2025 and early 2026, MuddyWater used commercial satellite internet (i.e., Starlink) for command and control (C2) communication.   ",
+      "description": "MuddyWater is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS). Since at least 2017, MuddyWater has targeted a range of government and private organizations across sectors, including telecommunications, local government, finance, defense, and oil and natural gas organizations, in the Middle East (specifically the UAE and Saudi Arabia), Asia, Africa, Europe, and North America. MuddyWater has reused domains dating back to October 2025, and has a preference for NameCheap and Hosterdaddy Private Limited (AS136557). In late 2025 and early 2026, MuddyWater used commercial satellite internet (i.e., Starlink) for command and control (C2) communication.",
       "aliases": [
         "MuddyWater",
         "Earth Vetala",
@@ -7659,7 +7659,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Silence",
-      "description": "Silence is a financially motivated threat actor targeting financial institutions in different countries. The group was first seen in June 2016. Their main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan. They compromised various banking systems, including the Russian Central Bank's Automated Workstation Client, ATMs, and card processing. ",
+      "description": "Silence is a financially motivated threat actor targeting financial institutions in different countries. The group was first seen in June 2016. Their main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan. They compromised various banking systems, including the Russian Central Bank's Automated Workstation Client, ATMs, and card processing.",
       "aliases": [
         "Silence",
         "Whisper Spider"
@@ -8050,7 +8050,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "APT41",
-      "description": "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries. Notable behaviors include using a wide range of malware and tools to complete mission objectives. APT41 overlaps at least partially with public reporting on groups including BARIUM and Winnti Group.\n",
+      "description": "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries. Notable behaviors include using a wide range of malware and tools to complete mission objectives. APT41 overlaps at least partially with public reporting on groups including BARIUM and Winnti Group.",
       "aliases": [
         "APT41",
         "Wicked Panda",
@@ -9695,7 +9695,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Nomadic Octopus",
-      "description": "\nNomadic Octopus is a Russian-speaking cyber espionage threat group that has primarily targeted Central Asia, including local governments, diplomatic missions, and individuals, since at least 2014. Nomadic Octopus has been observed conducting campaigns involving Android and Windows malware, mainly using the Delphi programming language, and building custom variants.",
+      "description": "Nomadic Octopus is a Russian-speaking cyber espionage threat group that has primarily targeted Central Asia, including local governments, diplomatic missions, and individuals, since at least 2014. Nomadic Octopus has been observed conducting campaigns involving Android and Windows malware, mainly using the Delphi programming language, and building custom variants.",
       "aliases": [
         "Nomadic Octopus",
         "DustSquad"
@@ -11226,7 +11226,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "APT5",
-      "description": "APT5 is a China-based espionage actor that has been active since at least 2007 primarily targeting the telecommunications, aerospace, and defense industries throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and significant interest in compromising networking devices and their underlying software including through the use of zero-day exploits.  ",
+      "description": "APT5 is a China-based espionage actor that has been active since at least 2007 primarily targeting the telecommunications, aerospace, and defense industries throughout the U.S., Europe, and Asia. APT5 has displayed advanced tradecraft and significant interest in compromising networking devices and their underlying software including through the use of zero-day exploits.",
       "aliases": [
         "APT5",
         "Mulberry Typhoon",
@@ -11670,7 +11670,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "Star Blizzard",
-      "description": "Star Blizzard is a cyber espionage and influence group originating in Russia that has been active since at least 2019. Star Blizzard campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK.\n",
+      "description": "Star Blizzard is a cyber espionage and influence group originating in Russia that has been active since at least 2019. Star Blizzard campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK.",
       "aliases": [
         "Star Blizzard",
         "SEABORGIUM",
@@ -11944,7 +11944,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "RedCurl",
-      "description": "RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks. RedCurl is allegedly a Russian-speaking threat actor. The group’s operations typically start with spearphishing emails to gain initial access, then the group executes discovery and collection commands and scripts to find corporate data. The group concludes operations by exfiltrating files to the C2 servers. ",
+      "description": "RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks. RedCurl is allegedly a Russian-speaking threat actor. The group’s operations typically start with spearphishing emails to gain initial access, then the group executes discovery and collection commands and scripts to find corporate data. The group concludes operations by exfiltrating files to the C2 servers.",
       "aliases": [
         "RedCurl"
       ],
@@ -12169,7 +12169,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "APT42",
-      "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance. The group primarily focuses on targets in the Middle East region, but has targeted a variety of industries and countries since at least 2015. APT42 starts cyber operations through spearphishing emails and/or the PINEFLOWER Android malware, then monitors and collects information from the compromised systems and devices. Finally, APT42 exfiltrates data using native features and open-source tools. \n\nAPT42 activities have been linked to Magic Hound by other commercial vendors. While there are behavior and software overlaps between Magic Hound and APT42, they appear to be distinct entities and are tracked as separate entities by their originating vendor. ",
+      "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance. The group primarily focuses on targets in the Middle East region, but has targeted a variety of industries and countries since at least 2015. APT42 starts cyber operations through spearphishing emails and/or the PINEFLOWER Android malware, then monitors and collects information from the compromised systems and devices. Finally, APT42 exfiltrates data using native features and open-source tools. \n\nAPT42 activities have been linked to Magic Hound by other commercial vendors. While there are behavior and software overlaps between Magic Hound and APT42, they appear to be distinct entities and are tracked as separate entities by their originating vendor.",
       "aliases": [
         "APT42"
       ],
@@ -12743,7 +12743,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "VOID MANTICORE",
-      "description": "VOID MANTICORE is a threat group assessed to operate on behalf of Iran’s Ministry of Intelligence and Security (MOIS). Active since at least mid-2022, VOID MANTICORE has targeted government entities, critical infrastructure, and private sector organizations across Albania, Israel, and the United States. VOID MANTICORE conducts destructive cyber operations, combining wiper attacks with hack-and-leak campaigns. The group has operated under multiple public-facing personas, including HomeLand Justice in operations against Albania, Karma and Karma Below in campaigns targeting Israeli organizations, and Handala Hack, its current primary persona, which has claimed activity against Israeli and U.S. entities, including a March 2026 attack against Stryker Corporation.  VOID MANTICORE has been observed collaborating with Scarred Manticore, which has been linked to initial access operations preceding VOID MANTICORE’s activity. ",
+      "description": "VOID MANTICORE is a threat group assessed to operate on behalf of Iran’s Ministry of Intelligence and Security (MOIS). Active since at least mid-2022, VOID MANTICORE has targeted government entities, critical infrastructure, and private sector organizations across Albania, Israel, and the United States. VOID MANTICORE conducts destructive cyber operations, combining wiper attacks with hack-and-leak campaigns. The group has operated under multiple public-facing personas, including HomeLand Justice in operations against Albania, Karma and Karma Below in campaigns targeting Israeli organizations, and Handala Hack, its current primary persona, which has claimed activity against Israeli and U.S. entities, including a March 2026 attack against Stryker Corporation.  VOID MANTICORE has been observed collaborating with Scarred Manticore, which has been linked to initial access operations preceding VOID MANTICORE’s activity.",
       "aliases": [
         "VOID MANTICORE",
         "COBALT MYSTIQUE",
@@ -12981,7 +12981,7 @@
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
       "name": "The Gentlemen",
-      "description": "The Gentlemen is a group that maintains the The Gentlemen Ransomware-as-a-service (RaaS). The Gentlemen was first observed in mid-2025 who had posed The Gentlemen Ransomware as a closed ransomware and shortly later opened the ransomware as a RaaS to affiliates in September 2025. The Gentlemen has been affiliated with the threat group Storm-2697 and GOLD SHERWOOD. ",
+      "description": "The Gentlemen is a group that maintains the The Gentlemen Ransomware-as-a-service (RaaS). The Gentlemen was first observed in mid-2025 who had posed The Gentlemen Ransomware as a closed ransomware and shortly later opened the ransomware as a RaaS to affiliates in September 2025. The Gentlemen has been affiliated with the threat group Storm-2697 and GOLD SHERWOOD.",
       "aliases": [
         "The Gentlemen",
         "Storm-2697",
