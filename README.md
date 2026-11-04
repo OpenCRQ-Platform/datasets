@@ -17,8 +17,10 @@ reworked and enriched for cyber risk quantification.
 Read by the **OpenCRQ Default Threats** connector: the live groups and campaigns of
 [MITRE ATT&CK](https://attack.mitre.org) Enterprise, the techniques they use directly and through
 their software (one `uses` relationship per technique, confidence 80), the attributions of
-campaigns to groups, and the ATT&CK release (`x-mitre-collection`). A technique appears only as a
-stub carrying its MITRE id: the connector names it from its own catalogue.
+campaigns to groups, and the ATT&CK release (`x-mitre-collection`). A group's or campaign's
+description comes without MITRE's inline `(Citation: …)` markers, and its `external_references` are
+kept. A technique appears only as a stub carrying its MITRE id: the connector names it from its own
+catalogue.
 
 The file follows the latest ATT&CK release, rebuilt from MITRE's
 [Enterprise bundle](https://github.com/mitre-attack/attack-stix-data) when one is published.
