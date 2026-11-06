@@ -12,9 +12,10 @@ MITRE ATT&CK
 https://attack.mitre.org
 --------------------------------------------------------------------------------
 
-Data derived from MITRE ATT&CK, obtained from https://github.com/mitre-attack/attack-stix-data
-and modified for OpenCRQ. The following copyright designation and license are reproduced as
-the ATT&CK Terms of Use require
+Data from MITRE ATT&CK, obtained from https://github.com/mitre-attack/attack-stix-data and
+selected for OpenCRQ: the objects taken from ATT&CK are left as MITRE publishes them, and the
+objects OpenCRQ adds are authored by OpenCRQ. The following copyright designation and license
+are reproduced as the ATT&CK Terms of Use require
 (https://attack.mitre.org/resources/legal-and-branding/terms-of-use/).
 
 © 2026 The MITRE Corporation. This work is reproduced and distributed with the permission of

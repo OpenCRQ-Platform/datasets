@@ -4,7 +4,7 @@
 
 This repository stores the datasets that the OpenCRQ connectors synchronize into the platform:
 STIX 2.1 bundles built from public sources such as [MITRE ATT&CK](https://attack.mitre.org),
-reworked and enriched for cyber risk quantification.
+selected and enriched for cyber risk quantification.
 
 ## Layout
 
@@ -14,18 +14,56 @@ reworked and enriched for cyber risk quantification.
 
 ### `data/default-threats-v1.json`
 
-Read by the **OpenCRQ Default Threats** connector: the live groups and campaigns of
-[MITRE ATT&CK](https://attack.mitre.org) Enterprise, the techniques they use directly and through
-their software (one `uses` relationship per technique, confidence 80), the attributions of
-campaigns to groups, and the ATT&CK release (`x-mitre-collection`). A group's or campaign's
-description is plain text: MITRE's inline `(Citation: …)` markers are removed and its markdown links
-and `<code>` tags keep their text only, its ends are trimmed, while its `external_references` are kept. A technique appears only as a stub
-carrying its MITRE id: the connector names it from its own catalogue.
+Read by the **OpenCRQ Default Threats** connector, and meant for it only. It holds objects of
+[MITRE ATT&CK](https://attack.mitre.org) Enterprise, selected and left exactly as MITRE publishes
+them, and the objects OpenCRQ adds, which OpenCRQ authors.
+
+From MITRE, unchanged:
+
+- The live groups (`intrusion-set`) and campaigns, revoked and deprecated ones left out. Their
+  descriptions are MITRE's markdown, with its `(Citation: …)` markers.
+- The `uses` relationships MITRE states from a live group or campaign to a live technique. A
+  technique a group reaches only through its malware or tools is not claimed, and a group or
+  campaign MITRE gives no technique ships without one.
+- The `attributed-to` relationships of campaigns to groups.
+- MITRE's `identity` and copyright `marking-definition`, which those objects cite.
+
+From OpenCRQ:
+
+- The `OpenCRQ` `identity`, `identity--8d1c750c-8ead-5bc3-bb8b-7b55f43f5c9b`. Its id follows
+  OpenCTI's rule for authors, so an OpenCTI loading the file keeps a single OpenCRQ organization.
+- An [`x-opencrq-dataset-release`](#x-opencrq-dataset-release) object naming the ATT&CK release,
+  and the `extension-definition` declaring its type.
+
+The file holds no `confidence`: the connector applies its own to everything it loads from it. It
+holds no attack-pattern either: a `uses` relationship's `target_ref` is MITRE's technique id, which
+the connector resolves through its own technique catalogue. A generic STIX reader, which expects
+every reference to resolve within the file, rejects those relationships.
 
 The file follows the latest ATT&CK release, rebuilt from MITRE's
 [Enterprise bundle](https://github.com/mitre-attack/attack-stix-data) when one is published.
 `v1` is its format major: within a major no field changes meaning, and a change that would is
-published as `v2` beside it.
+published as `v2` beside it. The file moved to the shape above as `v1` all the same, before any
+released connector read it: its descriptions had been plain text, and it had carried `confidence`,
+attack-patterns, MITRE's `x-mitre-collection` and uses derived through software.
+
+#### `x-opencrq-dataset-release`
+
+A STIX object of OpenCRQ's own type, one per file, declared as a `new-sdo` extension by
+`extension-definition--67f2dbcb-57d2-5b01-acf8-8c3265b07e36`, version `1.0.0`, whose `schema` is
+this section. Besides the common properties (`type`, `spec_version`, `id`, `created`, `modified`,
+`created_by_ref`, `extensions`):
+
+| Property | Value |
+|---|---|
+| `attack_release` | The ATT&CK release the file's MITRE objects are selected from, such as `20.0`. |
+| `created`, `modified` | The dates of that release's `x-mitre-collection`. |
+| `created_by_ref` | The OpenCRQ identity. |
+| `id` | Derived from the release, so the same release always gives the same id. |
+
+An additive change keeps the type, and readers ignore properties they do not know. A breaking
+change becomes a new type with its own `extension-definition`, shipped beside this one until no
+reader needs it.
 
 ## License
 
