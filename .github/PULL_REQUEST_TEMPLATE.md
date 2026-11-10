@@ -15,7 +15,7 @@ See .github/LABELS.md for the full taxonomy.
 
 ### Related issues
 
-<!-- This PR must be linked to an issue. Use a closing keyword. -->
+<!-- This PR must be linked to an issue. Use a closing keyword. Never link a private repository. -->
 * Closes #
 
 ### How to test this PR
