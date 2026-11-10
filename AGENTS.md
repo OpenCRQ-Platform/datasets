@@ -35,6 +35,9 @@ convention. See [`.github/LABELS.md`](.github/LABELS.md) for the full title and
 label taxonomy.
 <!-- filigran-conventions:end -->
 
+The `(#issue)` reference is for commits and pull request titles only: an issue title omits it, since
+the issue is the reference.
+
 ### Links in public metadata
 
 This repository is public. Issues, pull requests, comments and commit messages are read by people
