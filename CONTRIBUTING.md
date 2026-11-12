@@ -19,6 +19,10 @@ developing features or fixing bugs yourself.
 * If you are interested in contributing code, fork the repository, create a
   branch, and open a pull request.
 
+This repository is public: never link a private repository from an issue, a pull
+request, a comment or a commit message. See
+[Links in public metadata](AGENTS.md#links-in-public-metadata).
+
 <!-- filigran-conventions:start -->
 ## Commit, pull request & issue conventions
 

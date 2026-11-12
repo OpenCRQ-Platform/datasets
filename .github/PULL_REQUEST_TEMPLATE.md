@@ -6,6 +6,8 @@ Title convention (Conventional Commits + GitHub reference):
   type(scope?): description (#issue)
 Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert.
 See .github/LABELS.md for the full taxonomy.
+
+Never link a private repository, in the title or anywhere in this description.
 -->
 
 ### Proposed changes
