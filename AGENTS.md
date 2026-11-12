@@ -44,4 +44,6 @@ This repository is public. Issues, pull requests, comments and commit messages a
 who cannot open a private repository, so none of them links one (an issue, pull request, commit,
 file or advisory hosted there): the link is a 404 for them and leaks the repository's name. To tell
 whether a repository is private, run `gh repo view <owner/repo> --json visibility`: anything but
-`PUBLIC` is. To connect the two, link the public item from the private one.
+`PUBLIC` is, and so is a repository the command cannot resolve (`Could not resolve to a
+Repository`), which is what a private repository looks like from outside. To connect the two, link
+the public item from the private one.

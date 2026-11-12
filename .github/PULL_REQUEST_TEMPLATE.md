@@ -6,6 +6,8 @@ Title convention (Conventional Commits + GitHub reference):
   type(scope?): description (#issue)
 Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert.
 See .github/LABELS.md for the full taxonomy.
+
+Never link a private repository, in the title or anywhere in this description.
 -->
 
 ### Proposed changes
@@ -15,7 +17,7 @@ See .github/LABELS.md for the full taxonomy.
 
 ### Related issues
 
-<!-- This PR must be linked to an issue. Use a closing keyword. Never link a private repository. -->
+<!-- This PR must be linked to an issue. Use a closing keyword. -->
 * Closes #
 
 ### How to test this PR
